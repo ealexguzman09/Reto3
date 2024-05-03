@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "properties": {
+        "Login":{
+            "type":"array",
+            "items": {
+                "type":"object",
+                "properties": {
+                    "nombre":{
+                        "type":"string"
+                    },
+                    "contrasena":{
+                        "type":"string"
+                    }
+                },
+                "required":["nombre","contrasena"]
+            }
+        }
+    }
+}
