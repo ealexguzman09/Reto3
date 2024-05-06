@@ -8,10 +8,14 @@
                 "type":"object",
                 "properties": {
                     "nombre":{
-                        "type":"string"
+                        "type":"string",
+                        "minLength":5,
+                        "pattern": "^[a-zA-Z0-9]+$"
                     },
                     "contrasena":{
-                        "type":"string"
+                        "type":"string",
+                        "minLength":8,
+                        "pattern": "[a-zA-Z0-9@$!%*?&]+"
                     }
                 },
                 "required":["nombre","contrasena"]

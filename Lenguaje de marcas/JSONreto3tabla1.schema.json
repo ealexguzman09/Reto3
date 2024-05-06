@@ -9,7 +9,7 @@
                 "properties": {
                     "Pregunta":{
                         "type":"string",
-                        "pattern": "¿[a-zÀ-ÿA-Z0-9 ]+( [a-zÀ-ÿA-Z0-9])*?"
+                        "pattern": "¿[a-zÀ-ÿA-Z0-9\\, ]+( [a-zÀ-ÿA-Z0-9])*\\?"
                     },
                     "respuestaCorrecta":{
                         "type":"string"

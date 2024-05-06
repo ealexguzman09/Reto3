@@ -1,12 +1,12 @@
 {
-    "$schema": "./JSONreto3tabla2.schema.json",
+    "$schema": "./Usuario.schema.json",
     "Login":[
         {
-            "nombre":"",
+            "nombre":"9aAS22",
             "contrasena":""
         },
         {
-            "nombre":"",
+            "nombre":"aswasd",
             "contrasena":""
         }
     ]

@@ -2,7 +2,7 @@
     "$schema": "./JSONreto3tabla1.schema.json",
     "preguntasjuego": [
     {
-        "Pregunta": "¿Si juegas a la NFL, qué deporte practicas?",
+        "Pregunta": "¿ Si juegas a la NFL, qué deporte practicas ?",
         "respuestaCorrecta": "Fútbol americano",
         "respuesta2": "Baloncesto",
         "respuesta3": "Rugby",
@@ -12,7 +12,7 @@
         "tipo": "escrito" 
     },
     {
-        "Pregunta": "Cada cuántos años se celebran los Juegos Olímpicos?",
+        "Pregunta": "¿ Cada cuántos años se celebran los Juegos Olímpicos ?",
         "respuestaCorrecta": "Cada 4 años",
         "respuesta2": "Cada 6 años",
         "respuesta3": "Cada 2 años",
