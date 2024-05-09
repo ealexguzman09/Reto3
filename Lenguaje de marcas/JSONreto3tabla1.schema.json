@@ -36,7 +36,8 @@
                         "enum": ["seleccionar","escrito"]
                     }
                 },
-                "required":["Pregunta","respuestaCorrecta","respuesta2","respuesta3","respuesta4","categoria","dificultad","tipo"]
+                "required":["Pregunta","respuestaCorrecta","respuesta2","respuesta3","respuesta4","categoria",
+                "dificultad","tipo"]
             }
         }
     }
