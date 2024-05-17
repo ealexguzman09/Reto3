@@ -9,13 +9,12 @@
                 "properties": {
                     "nombre":{
                         "type":"string",
-                        "minLength":5,
-                        "pattern": "^[a-zA-Z0-9]+$"
+                        "minLength":1
                     },
                     "contrasena":{
                         "type":"string",
                         "minLength":8,
-                        "pattern": "[a-zA-Z0-9@$!%*?&]+"
+                        "pattern": "[a-zA-Z0-9À-ÿ@$!%*?&.()-=#~€%¿¡_+]+"
                     }
                 },
                 "required":["nombre","contrasena"]
